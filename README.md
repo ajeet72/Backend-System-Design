@@ -38,7 +38,7 @@ The backend system is designed to be efficient and scalable, using a combination
 ## Code Overview
 
 ### Project Structure
-
+```bash
 Backend-System-Design/
 ├── node-backend/
 │   ├── dist/                # Compiled TypeScript files
@@ -70,7 +70,7 @@ Backend-System-Design/
 │   ├── package-lock.json    # Lockfile for worker Node.js dependencies
 │   ├── package.json         # Node.js project metadata for workers
 │   └── tsconfig.json        # TypeScript configuration for workers
-
+```
 
 
 ### Key Files
