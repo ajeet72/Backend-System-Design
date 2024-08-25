@@ -78,9 +78,3 @@ Prometheus collects metrics from the system, and Grafana is used to visualize th
 - [Node.js](https://nodejs.org/) (v14 or later)
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
-
-### Steps
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/ajeet72/Backend-System-Design.git
-   cd Backend-System-Design
