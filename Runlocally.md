@@ -111,6 +111,7 @@ Finally, compile the TypeScript files and start the Node.js server:
 tsc -b
 node dist/index.js
 ```
+## you can start multiple wroker using terminal to distribute requests
 
 ## Accessing the Services
 
