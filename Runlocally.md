@@ -87,6 +87,31 @@ tsc -b
 node dist/index.js
 ```
 
+### 8. Build and Start the Project
+
+alos we need to start worker
+```bash
+cd ..
+cd worker
+```
+
+### 9. Build and Start the Project
+
+Install all necessary Node.js dependencies:
+
+```bash
+npm install
+```
+
+### 10. Build and Start the Project
+
+Finally, compile the TypeScript files and start the Node.js server:
+
+```bash
+tsc -b
+node dist/index.js
+```
+
 ## Accessing the Services
 
 Once everything is running, you can access the following services:
