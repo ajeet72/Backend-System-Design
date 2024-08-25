@@ -73,8 +73,3 @@ Prometheus collects metrics from the system, and Grafana is used to visualize th
    - Alerts can be configured in Grafana to notify administrators of any issues.
 
 ## Installation
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v14 or later)
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
