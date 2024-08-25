@@ -18,74 +18,74 @@ Before you start, ensure you have the following installed on your system:
 
 First, clone the repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone https://github.com/ajeet72/Backend-System-Design.git
 cd Backend-System-Design
-\`\`\`
+```
 
 ### 2. Set Up PostgreSQL
 
 Run the following command to start a PostgreSQL container locally using Docker:
 
-\`\`\`bash
+```bash
 sudo docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
-\`\`\`
+```
 
 ### 3. Configure Environment Variables
 
 Navigate to the \`node-backend\` directory and create a \`.env\` file:
 
-\`\`\`bash
+```bash
 cd node-backend
-\`\`\`
+```
 
 In the \`.env\` file, add the following content:
 
-\`\`\`plaintext
+```plaintext
 DATABASE_URL="postgresql://postgres:mysecretpassword@localhost:5432/postgres"
-\`\`\`
+```
 
 ### 4. Install Node.js Dependencies
 
 Install all necessary Node.js dependencies:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 5. Set Up the Database
 
 Use Prisma to migrate your database schema and generate the Prisma client:
 
-\`\`\`bash
+```bash
 npx prisma migrate dev
 npx prisma generate
-\`\`\`
+```
 
 ### 6. Set Up Redis
 
 Start a Redis container locally using Docker:
 
-\`\`\`bash
+```bash
 sudo docker run --name my-redis -d -p 6379:6379 redis
-\`\`\`
+```
 
 ### 7. Start the Docker Containers
 
 To start the additional services defined in the Docker Compose file, run:
 
-\`\`\`bash
+```bash
 sudo docker-compose up -d
-\`\`\`
+```
 
 ### 8. Build and Start the Project
 
 Finally, compile the TypeScript files and start the Node.js server:
 
-\`\`\`bash
+```bash
 tsc -b
 node dist/index.js
-\`\`\`
+```
 
 ## Accessing the Services
 
