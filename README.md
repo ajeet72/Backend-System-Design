@@ -2,6 +2,7 @@
 
 This repository contains a backend system designed to be efficient and scalable, using Node.js, TypeScript, Prisma, PostgreSQL, Redis, Docker, Prometheus, and Grafana. The project demonstrates an efficient and scalable backend setup, including user authentication, request queueing, and monitoring.
 
+![Screenshot from 2024-08-25 19-48-37](https://github.com/user-attachments/assets/114434a5-f94a-4692-b5bf-8bfc3bea93b3)
 
 
 ## System Architecture
@@ -10,7 +11,7 @@ This repository contains a backend system designed to be efficient and scalable,
 
 The backend system is designed to be efficient and scalable, using a combination of Node.js, TypeScript, Prisma, PostgreSQL, Redis, Docker, Prometheus, and Grafana. Below is an overview of the system architecture:
 
-![System Architecture Diagram](path/to/architecture-diagram.png)
+
 
 ### Components
 
