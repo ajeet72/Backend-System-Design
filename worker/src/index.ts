@@ -12,7 +12,7 @@ async function processSubmission(submission: string) {
 
         // The processSubmission function handles the processing of each request sequentially. You simulate processing with a delay, 
         // which is good for testing. In a real scenario, you'd replace this with actual logic.
-        await new Promise(resolve => setTimeout(resolve, 10000));
+        await new Promise(resolve => setTimeout(resolve, 4000));
         console.log(`Finished processing submission for problemId ${problemId}.`);
     } catch (error) {
         console.error("Failed to process submission:", error);
